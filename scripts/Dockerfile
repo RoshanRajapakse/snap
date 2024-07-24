@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.23rc2
 
 ENV GOPATH=$GOPATH:/go
 COPY ./ /go/src/github.com/intelsdi-x/snap
